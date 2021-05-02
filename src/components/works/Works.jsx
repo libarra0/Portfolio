@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "../../images/arrow.png"
 import "./Works.scss"
 
 export default function Works() {
@@ -9,7 +10,7 @@ export default function Works() {
         {
             id: "1",
             icon: "./assets/mobile.png",
-            title: "Mobile Application",
+            title: "Web Design",
             desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
             img:
@@ -18,7 +19,7 @@ export default function Works() {
         {
             id: "2",
             icon: "./assets/globe.png",
-            title: "Web Design",
+            title: "Mobile Application",
             desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             img:
@@ -48,7 +49,7 @@ export default function Works() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    <img src={d.icon} alt="globe"/>
+                                    <img src={d.icon} alt=""/>
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
@@ -56,14 +57,14 @@ export default function Works() {
                             </div>
                         </div>
                         <div className="right">
-                            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" 
+                            <img src={d.img}
                             alt="demo"/>
                         </div>
                     </div>
                 </div>))}
             </div>
-            <img src="assets/arrow.png" className="arrow left" alt="arrow" onClick={() => handleClick("left")}/>
-            <img src="assets/arrow.png" className="arrow right" alt="arrow" onClick={() => handleClick("right")}/>
+            <img src={Image} className="arrow left" alt="arrow" onClick={() => handleClick("left")}/>
+            <img src={Image} className="arrow right" alt="arrow" onClick={() => handleClick("right")}/>
         </div>
     )
 }

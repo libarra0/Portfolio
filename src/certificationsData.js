@@ -1,152 +1,340 @@
 export const allCertifications = [
     {
       id: 1,
-      title: "Social Media App",
-      link: "https://www.google.com/",
+      title: "Curso Profesional de Git y GitHub",
+      link: "https://platzi.com/p/leon07/curso/1557-course/diploma/detalle/",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.imgur.com/4dFJSyc.png",
     },
     {
       id: 2,
-      title: "Rampa UI Design",
-      link: "https://www.google.com/",
+      title: "Curso de Testing de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1349-course/diploma/detalle/",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/sCCmOiL.png",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      link: "https://www.google.com/",
+      title: "Curso Profesional de Diseño de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1910-course/diploma/detalle/",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/HA3TT2U.png",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
-      link: "https://www.google.com/",
+      title: "Curso de Programación Básica",
+      link: "https://platzi.com/p/leon07/curso/1050-course/diploma/detalle/",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/iMDXASp.png",
     },
     {
       id: 5,
-      title: "Hero Web Design",
-      link: "https://www.google.com/",
+      title: "Curso de Programación Orientada a Objetos: POO",
+      link: "https://platzi.com/p/leon07/curso/1474-course/diploma/detalle/",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/3pByGE9.png",
     },
     {
       id: 6,
-      title: "Banking App",
-      link: "https://www.google.com/",
+      title: "Curso de VR con Unity",
+      link: "https://platzi.com/p/leon07/curso/1414-course/diploma/detalle/",
       img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "https://i.imgur.com/RJabEuV.png",
+    },
+    {
+      id: 7,
+      title: "Curso de Programación de Videojuegos 2D con Unity",
+      link: "https://platzi.com/p/leon07/curso/1887-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/zmXIAH5.png",
+    },
+    {
+      id: 8,
+      title: "Curso de POO y Algoritmos con Python",
+      link: "https://platzi.com/p/leon07/curso/1775-course/diploma/detalle/",
+      img: "https://i.imgur.com/MIbHoK3.png",
+    },
+    {
+      id: 9,
+      title: "Curso de Java SE Orientado a Objetos",
+      link: "https://platzi.com/p/leon07/curso/1629-course/diploma/detalle/",
+      img: "https://i.imgur.com/SIGGehl.png",
+    },
+    {
+      id: 10,
+      title: "Curso de Introducción a la Programación de Videojuegos 3D con Unity",
+      link: "https://platzi.com/p/leon07/curso/1801-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/EOy54ii.png",
+    },
+    {
+      id: 11,
+      title: "Curso de Introducción a la Terminal y Línea de Comandos",
+      link: "https://platzi.com/p/leon07/curso/1748-course/diploma/detalle/",
+      img: "https://i.imgur.com/Vn6RYDc.png",
+    },
+    {
+      id: 12,
+      title: "Curso de Introducción a la Producción de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/2269-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/Wb7gfnf.png",
+    },
+    {
+      id: 13,
+      title: "Curso de Introducción a Java SE",
+      link: "https://platzi.com/p/leon07/curso/1631-course/diploma/detalle/",
+      img: "https://i.imgur.com/9eWjLHs.png",
+    },
+    {
+      id: 14,
+      title: "Curso de Gamificación",
+      link: "https://platzi.com/p/leon07/curso/1287-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/eo1q1ev.png",
+    },
+    {
+      id: 15,
+      title: "Curso de Escritura de Personajes y NPC en Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1509-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/zFdQrVa.png",
+    },
+    {
+      id: 16,
+      title: "Curso de Diseño y Prototipado de Personajes",
+      link: "https://platzi.com/p/leon07/curso/1251-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/8ZKdDZr.png",
+    },
+    {
+      id: 17,
+      title: "Curso de Diseño de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1783-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/rZJr1FQ.png",
+    },
+    {
+      id: 18,
+      title: "Curso de Dirección de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1485-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/qDAsw47.png",
+    },
+    {
+      id: 19,
+      title: "Curso de Desarrollo de Videojuegos para Móviles con Unity",
+      link: "https://platzi.com/p/leon07/curso/1488-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/GHwg8je.png",
+    },
+    {
+      id: 20,
+      title: "Curso de Creación de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1062-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/5axPDjZ.png",
+    },
+    {
+      id: 21,
+      title: "Curso de C# para Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1413-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/cGJRdo8.png",
+    },
+    {
+      id: 22,
+      title: "Curso de Animación y Arte de Videojuegos 2D",
+      link: "https://platzi.com/p/leon07/curso/1723-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/V6oqyTw.png",
+    },
+    {
+      id: 23,
+      title: "Curso Básico de Python",
+      link: "https://platzi.com/p/leon07/curso/1937-course/diploma/detalle/",
+      img: "https://i.imgur.com/MaOl869.png",
+    },
+    {
+      id: 24,
+      title: "Curso Avanzado de Creación de RPGs con Unity",
+      link: "https://platzi.com/p/leon07/curso/1478-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/qPndVsZ.png",
     },
   ];
   
   export const devCertifications = [
     {
       id: 1,
-      title: "Web Social Media App",
-      link: "https://www.google.com/",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Curso Profesional de Git y GitHub",
+      link: "https://platzi.com/p/leon07/curso/1557-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/4dFJSyc.png",
     },
     {
       id: 2,
-      title: "Web Rampa UI Design",
-      link: "https://www.google.com/",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      title: "Curso de Programación Básica",
+      link: "https://platzi.com/p/leon07/curso/1050-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/iMDXASp.png",
     },
     {
       id: 3,
-      title: "Web E-commerce Design",
-      link: "https://www.google.com/",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+      title: "Curso de Programación Orientada a Objetos: POO",
+      link: "https://platzi.com/p/leon07/curso/1474-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/3pByGE9.png",
     },
     {
       id: 4,
-      title: "Web Relax App",
-      link: "https://www.google.com/",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      title: "Curso de POO y Algoritmos con Python",
+      link: "https://platzi.com/p/leon07/curso/1775-course/diploma/detalle/",
+      img: "https://i.imgur.com/MIbHoK3.png",
     },
     {
       id: 5,
-      title: "Web Design",
-      link: "https://www.google.com/",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
+      title: "Curso de Java SE Orientado a Objetos",
+      link: "https://platzi.com/p/leon07/curso/1629-course/diploma/detalle/",
+      img: "https://i.imgur.com/SIGGehl.png",
     },
     {
       id: 6,
-      title: "Web Banking App",
-      link: "https://www.google.com/",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      title: "Curso de Introducción a la Terminal y Línea de Comandos",
+      link: "https://platzi.com/p/leon07/curso/1748-course/diploma/detalle/",
+      img: "https://i.imgur.com/Vn6RYDc.png",
+    },
+    {
+      id: 7,
+      title: "Curso de Introducción a Java SE",
+      link: "https://platzi.com/p/leon07/curso/1631-course/diploma/detalle/",
+      img: "https://i.imgur.com/9eWjLHs.png",
+    },
+    {
+      id: 8,
+      title: "Curso Básico de Python",
+      link: "https://platzi.com/p/leon07/curso/1937-course/diploma/detalle/",
+      img: "https://i.imgur.com/MaOl869.png",
     },
   ];
   
   export const QACertifications = [
     {
       id: 1,
-      title: "Mobile Social Media App",
-      link: "https://www.google.com/",
+      title: "Curso de Testing de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1349-course/diploma/detalle/",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      link: "https://www.google.com/",
-      img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      link: "https://www.google.com/",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Mobile Relax App",
-      link: "https://www.google.com/",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Mobile Hero Design",
-      link: "https://www.google.com/",
-      img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      link: "https://www.google.com/",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/sCCmOiL.png",
     },
   ];
   
   export const gameDevCertifications = [
     {
       id: 1,
-      title: "Design Social Media App",
-      link: "https://www.google.com/",
+      title: "Curso Profesional de Diseño de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1910-course/diploma/detalle/",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.imgur.com/HA3TT2U.png",
     },
     {
       id: 2,
-      title: "Design Rampa UI Design",
-      link: "https://www.google.com/",
+      title: "Curso de Introducción a la Producción de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/2269-course/diploma/detalle/",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.imgur.com/Wb7gfnf.png",
     },
     {
       id: 3,
-      title: "Design E-commerce Web Design",
-      link: "https://www.google.com/",
+      title: "Curso de Gamificación",
+      link: "https://platzi.com/p/leon07/curso/1287-course/diploma/detalle/",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.imgur.com/eo1q1ev.png",
+    },
+    {
+      id: 4,
+      title: "Curso de Escritura de Personajes y NPC en Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1509-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/zFdQrVa.png",
+    },
+    {
+      id: 5,
+      title: "Curso de Diseño y Prototipado de Personajes",
+      link: "https://platzi.com/p/leon07/curso/1251-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/8ZKdDZr.png",
+    },
+    {
+      id: 6,
+      title: "Curso de Diseño de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1783-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/rZJr1FQ.png",
+    },
+    {
+      id: 7,
+      title: "Curso de Dirección de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1485-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/qDAsw47.png",
+    },
+    {
+      id: 8,
+      title: "Curso de Creación de Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1062-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/5axPDjZ.png",
+    },
+    {
+      id: 9,
+      title: "Curso de Animación y Arte de Videojuegos 2D",
+      link: "https://platzi.com/p/leon07/curso/1723-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/V6oqyTw.png",
+    },
+  ];
+
+  export const unityDevCertifications = [
+    {
+      id: 1,
+      title: "Curso de VR con Unity",
+      link: "https://platzi.com/p/leon07/curso/1414-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/RJabEuV.png",
+    },
+    {
+      id: 2,
+      title: "Curso de Programación de Videojuegos 2D con Unity",
+      link: "https://platzi.com/p/leon07/curso/1887-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/zmXIAH5.png",
+    },
+    {
+      id: 3,
+      title: "Curso de Introducción a la Programación de Videojuegos 3D con Unity",
+      link: "https://platzi.com/p/leon07/curso/1801-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/EOy54ii.png",
+    },
+    {
+      id: 4,
+      title: "Curso de Desarrollo de Videojuegos para Móviles con Unity",
+      link: "https://platzi.com/p/leon07/curso/1488-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/GHwg8je.png",
+    },
+    {
+      id: 5,
+      title: "Curso de C# para Videojuegos",
+      link: "https://platzi.com/p/leon07/curso/1413-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/cGJRdo8.png",
+    },
+    {
+      id: 6,
+      title: "Curso Avanzado de Creación de RPGs con Unity",
+      link: "https://platzi.com/p/leon07/curso/1478-course/diploma/detalle/",
+      img:
+        "https://i.imgur.com/qPndVsZ.png",
     },
   ];

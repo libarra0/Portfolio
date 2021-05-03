@@ -9,17 +9,17 @@ export default function Works() {
     const data = [
         {
             id: "1",
-            icon: "./assets/mobile.png",
-            title: "Web Design",
+            icon: "https://i.imgur.com/8hmG5m4.png",
+            title: "Portfolio Web Design",
             desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
             img:
-                "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+                "https://i.imgur.com/IvziOkj.png",
         },
         {
             id: "2",
-            icon: "./assets/globe.png",
-            title: "Mobile Application",
+            icon: "https://i.imgur.com/uhKK380.png",
+            title: "Quality Assurance",
             desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             img:
@@ -27,12 +27,12 @@ export default function Works() {
         },
         {
             id: "3",
-            icon: "./assets/writing.png",
-            title: "Branding",
+            icon: "https://i.imgur.com/aZXthaY.png",
+            title: "Video game prototype",
             desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             img:
-                "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+                "https://i.imgur.com/s0Yv2Yd.png",
         },
     ];
 

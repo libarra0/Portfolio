@@ -6,6 +6,7 @@ import{
     devCertifications,
     QACertifications,
     gameDevCertifications,
+    unityDevCertifications,
 } from "../../certificationsData";
 
 export default function Certifications() {
@@ -30,6 +31,10 @@ export default function Certifications() {
             id:"game",
             title: "Game design",
         },
+        {
+            id:"unity",
+            title: "Unity",
+        },
     ];
 
     useEffect(() => {
@@ -45,6 +50,9 @@ export default function Certifications() {
                 break;
             case "game":
                 setData(gameDevCertifications);
+                break;
+            case "unity":
+                setData(unityDevCertifications);
                 break;
             default:
                 setData(allCertifications);

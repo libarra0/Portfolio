@@ -31,10 +31,10 @@ export default function Portfolio() {
             id: "game",
             title: "Game Design",
         },
-        {
+        /*{
             id: "content",
             title: "Content",
-        },
+        },*/
     ];
 
     useEffect(() => {
@@ -52,9 +52,9 @@ export default function Portfolio() {
             case "game":
                 setData(gameDesignPortfolio);
                 break;
-            case "content":
+            /*case "content":
                 setData(contentPortfolio);
-                break;
+                break;*/
             default:
                 setData(featuredPortfolio);
         }

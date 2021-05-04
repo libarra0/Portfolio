@@ -12,7 +12,7 @@ export default function Works() {
             icon: "https://i.imgur.com/8hmG5m4.png",
             title: "Portfolio Web Design",
             desc:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "This is the current status of this portfolio, it will be updated continuously. ",
             img:
                 "https://i.imgur.com/IvziOkj.png",
         },
@@ -21,7 +21,7 @@ export default function Works() {
             icon: "https://i.imgur.com/uhKK380.png",
             title: "Quality Assurance",
             desc:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "Create a test and testing plan. Identify product problems by using bug tracking systems. ",
             img:
                 "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
         },
@@ -30,7 +30,7 @@ export default function Works() {
             icon: "https://i.imgur.com/aZXthaY.png",
             title: "Video game prototype",
             desc:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "This video game is still in the process of being created. ",
             img:
                 "https://i.imgur.com/s0Yv2Yd.png",
         },

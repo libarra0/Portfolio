@@ -24,6 +24,8 @@
             float: right;
 
             @include mobile{
+                width: 300px;
+                height: 300px;
                 align-items: flex-start;
             }
 
